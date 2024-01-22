@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Play&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcuBuddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CalcuBuddy</h1> 
+  
+  <div class="containerInputs"> 
+      <div class="group1">
+        <input type="text" placeholder="Enter first number" class="firstNumberInput">
+        <select id="selectOperator">
+          <option value="+">Add(+)</option>
+          <option value="-">Subtract(-)</option>
+          <option value="*">Multiply(*)</option>
+          <option value="/">Divide(/)</option>
+        </select>
+      </div>
+      <div class="group2">
+        <input type="text" placeholder="Enter second number" class="secondNumberInput"> 
+        <input type="button" value="Calculate" class="button">
+      </div>
+      
+      <div class="resultText"></div>
+  </div>   
+    
+    <script src="script.js"></script>
+</body>
+</html>
